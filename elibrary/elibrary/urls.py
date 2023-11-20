@@ -23,5 +23,6 @@ urlpatterns = [
     path('home/', include('elabweb.urls')),
     path('books/', include('elabweb.urls')),
     path('save_name/', include('elabweb.urls')),
+    path("__reload__/", include("django_browser_reload.urls")),
 ]
     
