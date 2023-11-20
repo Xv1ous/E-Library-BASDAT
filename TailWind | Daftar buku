@@ -1,0 +1,267 @@
+<div class="w-[1440px] h-[1242px] relative bg-gradient-to-bl from-sky-400 to-slate-50">
+    <div class="w-[1440px] h-[219px] left-0 top-[-20px] absolute">
+        <div class="h-[29px] pl-3.5 left-[206px] top-[97px] absolute justify-end items-center inline-flex">
+            <div class="w-[121px] h-[29px] text-black text-2xl font-normal font-['Roboto Slab']">Profil</div>
+        </div>
+        <div class="w-[109px] h-[29px] left-[97px] top-[97px] absolute text-black text-2xl font-normal font-['Roboto Slab']">Beranda</div>
+        <div class="w-[141px] h-[29px] left-[314px] top-[97px] absolute text-black text-2xl font-normal font-['Roboto Slab']">Daftar Buku</div>
+        <div class="w-[145px] h-[29px] left-[472px] top-[97px] absolute text-black text-2xl font-normal font-['Roboto Slab']">Pelayanan</div>
+        <div class="w-[166px] h-[29px] left-[1160px] top-[97px] absolute text-black text-2xl font-normal font-['Roboto Slab']">Daftar/Masuk</div>
+    </div>
+    <div class="left-[81px] top-[291px] absolute text-black text-[70px] font-normal font-['Myanmar Khyay'] underline">Daftar Buku </div>
+    <div class="w-[1371px] left-[34px] top-[506px] absolute justify-start items-start inline-flex">
+        <div class="flex-col justify-start items-start inline-flex">
+            <div class="w-12 h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
+                <div class="self-stretch grow shrink basis-0 justify-start items-center gap-1 inline-flex">
+                    <div class="w-6 h-6 relative bg-white bg-opacity-0">
+                        <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute bg-gray-50 rounded-sm border border-zinc-300"></div>
+                    </div>
+                </div>
+                <div class="self-stretch h-0.5 bg-zinc-200"></div>
+            </div>
+            <div class="w-12 h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="w-6 h-6 relative bg-white bg-opacity-0">
+                    <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute bg-gray-50 rounded-sm border border-zinc-300"></div>
+                </div>
+            </div>
+            <div class="w-12 h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="w-6 h-6 relative bg-white bg-opacity-0">
+                    <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute bg-gray-50 rounded-sm border border-zinc-300"></div>
+                </div>
+            </div>
+            <div class="w-12 h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="w-6 h-6 relative bg-white bg-opacity-0">
+                    <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute bg-gray-50 rounded-sm border border-zinc-300"></div>
+                </div>
+            </div>
+            <div class="w-12 h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="w-6 h-6 relative bg-white bg-opacity-0">
+                    <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute bg-gray-50 rounded-sm border border-zinc-300"></div>
+                </div>
+            </div>
+            <div class="w-12 h-10 py-2.5 bg-indigo-50 bg-opacity-0 justify-start items-center gap-2 inline-flex">
+                <div class="w-6 h-6 relative bg-white bg-opacity-0">
+                    <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute bg-gray-50 rounded-sm border border-zinc-300"></div>
+                </div>
+            </div>
+            <div class="w-12 h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="w-6 h-6 relative bg-white bg-opacity-0">
+                    <div class="w-3.5 h-3.5 left-[5px] top-[5px] absolute bg-gray-50 rounded-sm border border-zinc-300"></div>
+                </div>
+            </div>
+            <div class="w-12 h-[22px] pt-1 flex-col justify-start items-start flex">
+                <div class="self-stretch h-[0px] border border-zinc-200"></div>
+            </div>
+        </div>
+        <div class="flex-col justify-start items-start inline-flex">
+            <div class="w-[343px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
+                <div class="self-stretch grow shrink basis-0 text-black text-xs font-semibold font-['Montserrat'] leading-tight">Judul Buku</div>
+                <div class="self-stretch h-0.5 bg-zinc-200"></div>
+            </div>
+            <div class="w-[343px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">Text</div>
+            </div>
+            <div class="w-[343px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">Text</div>
+            </div>
+            <div class="w-[343px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">Text</div>
+            </div>
+            <div class="w-[343px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">Text</div>
+            </div>
+            <div class="w-[343px] h-10 py-2.5 bg-indigo-50 bg-opacity-0 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">Text</div>
+            </div>
+            <div class="w-[343px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">Text</div>
+            </div>
+            <div class="w-[343px] h-[22px] pt-1 flex-col justify-start items-start flex">
+                <div class="self-stretch h-[0px] border border-zinc-200"></div>
+            </div>
+        </div>
+        <div class="flex-col justify-start items-start inline-flex">
+            <div class="w-[250px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
+                <div class="self-stretch grow shrink basis-0 text-black text-xs font-semibold font-['Montserrat'] leading-tight">Pengarang</div>
+                <div class="self-stretch h-0.5 bg-zinc-200"></div>
+            </div>
+            <div class="w-[250px] h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="justify-center items-center gap-2.5 flex">
+                    <div class="w-6 h-6 bg-indigo-50 rounded-full"></div>
+                    <div class="text-center text-blue-600 text-xs font-normal font-['Montserrat'] leading-tight">SE</div>
+                </div>
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">Sarah Eastern</div>
+            </div>
+            <div class="w-[250px] h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="justify-center items-center gap-2.5 flex">
+                    <div class="w-6 h-6 bg-indigo-50 rounded-full"></div>
+                    <div class="text-center text-blue-600 text-xs font-normal font-['Montserrat'] leading-tight">SE</div>
+                </div>
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">Sarah Eastern</div>
+            </div>
+            <div class="w-[250px] h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="justify-center items-center gap-2.5 flex">
+                    <div class="w-6 h-6 bg-indigo-50 rounded-full"></div>
+                    <div class="text-center text-blue-600 text-xs font-normal font-['Montserrat'] leading-tight">SE</div>
+                </div>
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">Sarah Eastern</div>
+            </div>
+            <div class="w-[250px] h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="justify-center items-center gap-2.5 flex">
+                    <div class="w-6 h-6 bg-indigo-50 rounded-full"></div>
+                    <div class="text-center text-blue-600 text-xs font-normal font-['Montserrat'] leading-tight">SE</div>
+                </div>
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">Sarah Eastern</div>
+            </div>
+            <div class="w-[250px] h-10 py-2.5 bg-indigo-50 bg-opacity-0 justify-start items-center gap-2 inline-flex">
+                <div class="justify-center items-center gap-2.5 flex">
+                    <div class="w-6 h-6 bg-indigo-50 rounded-full"></div>
+                    <div class="text-center text-blue-600 text-xs font-normal font-['Montserrat'] leading-tight">SE</div>
+                </div>
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">Sarah Eastern</div>
+            </div>
+            <div class="w-[250px] h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="justify-center items-center gap-2.5 flex">
+                    <div class="w-6 h-6 bg-indigo-50 rounded-full"></div>
+                    <div class="text-center text-blue-600 text-xs font-normal font-['Montserrat'] leading-tight">SE</div>
+                </div>
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">Sarah Eastern</div>
+            </div>
+            <div class="w-[250px] h-[22px] pt-1 flex-col justify-start items-start flex">
+                <div class="self-stretch h-[0px] border border-zinc-200"></div>
+            </div>
+        </div>
+        <div class="flex-col justify-start items-start inline-flex">
+            <div class="w-[250px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
+                <div class="self-stretch grow shrink basis-0 text-black text-xs font-semibold font-['Montserrat'] leading-tight">Penerbit</div>
+                <div class="self-stretch h-0.5 bg-zinc-200"></div>
+            </div>
+            <div class="w-[250px] h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="justify-center items-center gap-2.5 flex">
+                    <div class="w-6 h-6 bg-indigo-50 rounded-full"></div>
+                    <div class="text-center text-blue-600 text-xs font-normal font-['Montserrat'] leading-tight">SE</div>
+                </div>
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">Sarah Eastern</div>
+            </div>
+            <div class="w-[250px] h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="justify-center items-center gap-2.5 flex">
+                    <div class="w-6 h-6 bg-indigo-50 rounded-full"></div>
+                    <div class="text-center text-blue-600 text-xs font-normal font-['Montserrat'] leading-tight">SE</div>
+                </div>
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">Sarah Eastern</div>
+            </div>
+            <div class="w-[250px] h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="justify-center items-center gap-2.5 flex">
+                    <div class="w-6 h-6 bg-indigo-50 rounded-full"></div>
+                    <div class="text-center text-blue-600 text-xs font-normal font-['Montserrat'] leading-tight">SE</div>
+                </div>
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">Sarah Eastern</div>
+            </div>
+            <div class="w-[250px] h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="justify-center items-center gap-2.5 flex">
+                    <div class="w-6 h-6 bg-indigo-50 rounded-full"></div>
+                    <div class="text-center text-blue-600 text-xs font-normal font-['Montserrat'] leading-tight">SE</div>
+                </div>
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">Sarah Eastern</div>
+            </div>
+            <div class="w-[250px] h-10 py-2.5 bg-indigo-50 bg-opacity-0 justify-start items-center gap-2 inline-flex">
+                <div class="justify-center items-center gap-2.5 flex">
+                    <div class="w-6 h-6 bg-indigo-50 rounded-full"></div>
+                    <div class="text-center text-blue-600 text-xs font-normal font-['Montserrat'] leading-tight">SE</div>
+                </div>
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">Sarah Eastern</div>
+            </div>
+            <div class="w-[250px] h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="justify-center items-center gap-2.5 flex">
+                    <div class="w-6 h-6 bg-indigo-50 rounded-full"></div>
+                    <div class="text-center text-blue-600 text-xs font-normal font-['Montserrat'] leading-tight">SE</div>
+                </div>
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">Sarah Eastern</div>
+            </div>
+            <div class="w-[250px] h-[22px] pt-1 flex-col justify-start items-start flex">
+                <div class="self-stretch h-[0px] border border-zinc-200"></div>
+            </div>
+        </div>
+        <div class="flex-col justify-start items-start inline-flex">
+            <div class="w-[200px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
+                <div class="self-stretch grow shrink basis-0 text-black text-xs font-semibold font-['Montserrat'] leading-tight">ISBN</div>
+                <div class="self-stretch h-0.5 bg-zinc-200"></div>
+            </div>
+            <div class="w-[200px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">89012808798</div>
+            </div>
+            <div class="w-[200px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">78912398712</div>
+            </div>
+            <div class="w-[200px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">9081203912</div>
+            </div>
+            <div class="w-[200px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">9182903123</div>
+            </div>
+            <div class="w-[200px] h-10 py-2.5 bg-indigo-50 bg-opacity-0 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">010290290</div>
+            </div>
+            <div class="w-[200px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">18273172893</div>
+            </div>
+            <div class="w-[200px] h-[22px] pt-1 flex-col justify-start items-start flex">
+                <div class="self-stretch h-[0px] border border-zinc-200"></div>
+            </div>
+        </div>
+        <div class="w-[113px] flex-col justify-start items-start inline-flex">
+            <div class="w-[113px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
+                <div class="self-stretch grow shrink basis-0 text-center text-black text-xs font-semibold font-['Montserrat'] leading-tight">Tahun Terbit</div>
+                <div class="self-stretch h-0.5 bg-zinc-200"></div>
+            </div>
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">2023/09/17</div>
+            </div>
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">2023/09/17</div>
+            </div>
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">2023/09/17</div>
+            </div>
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">2023/09/17</div>
+            </div>
+            <div class="w-[113px] h-10 py-2.5 bg-indigo-50 bg-opacity-0 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">2023/09/17</div>
+            </div>
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">2023/09/17</div>
+            </div>
+            <div class="w-[113px] h-[22px] pt-1 flex-col justify-start items-start flex">
+                <div class="self-stretch h-[0px] border border-zinc-200"></div>
+            </div>
+        </div>
+        <div class="w-[113px] flex-col justify-start items-start inline-flex">
+            <div class="w-[113px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
+                <div class="self-stretch grow shrink basis-0 text-center text-black text-xs font-semibold font-['Montserrat'] leading-tight">Jumlah</div>
+                <div class="self-stretch h-0.5 bg-zinc-200"></div>
+            </div>
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">3</div>
+            </div>
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">5</div>
+            </div>
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">1</div>
+            </div>
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">2</div>
+            </div>
+            <div class="w-[113px] h-10 py-2.5 bg-indigo-50 bg-opacity-0 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">2</div>
+            </div>
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">1</div>
+            </div>
+            <div class="w-[113px] h-[22px] pt-1 flex-col justify-start items-start flex">
+                <div class="self-stretch h-[0px] border border-zinc-200"></div>
+            </div>
+        </div>
+    </div>
+</div>
