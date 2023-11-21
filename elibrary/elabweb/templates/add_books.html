@@ -1,0 +1,48 @@
+<!-- FILEPATH: /c:/Users/hafiz/Desktop/VScode/E-Library-BASDAT/elibrary/elabweb/templates/books.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Books</title>
+</head>
+<body>
+    <h1>Books</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Publisher</th>
+                <th>ISBN</th>
+                <th>Publication Year</th>
+                <form method="POST" action="/add_books/">
+                    {% csrf_token %}
+                    <tr>
+                        <td><input type="text" name="title" placeholder="Title"></td>
+                        <td><input type="text" name="author" placeholder="Author"></td>
+                        <td><input type="text" name="genre" placeholder="Genre"></td>
+                        <td><input type="text" name="publisher" placeholder="Publisher"></td>
+                        <td><input type="text" name="isbn" placeholder="ISBN"></td>
+                        <td><input type="number" name="publication_year" placeholder="Publication Year"></td>
+                        <td><button type="submit">Add Book</button></td>
+                    </tr>
+                </form>
+            </tr>
+        </thead>
+        <tbody>
+            {% for book in books %}
+            <tr>
+                <td>{{ book.title }}</td>
+                <td>{{ book.author }}</td>
+                <td>{{ book.genre }}</td>
+                <td>{{ book.publisher }}</td>
+                <td>{{ book.isbn }}</td>
+                <td>{{ book.publication_year }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <a href="/home">Go Back!</a>
+</body>
+</html>
