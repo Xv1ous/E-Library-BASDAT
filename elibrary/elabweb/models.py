@@ -6,7 +6,11 @@ from django.db import models
 class Book(models.Model):
     title = models.CharField(max_length=100)
     author = models.CharField(max_length=100)
-    genre = models.CharField(max_length=100)
     publisher = models.CharField(max_length=100, default='Unknown')
-    isbn = models.IntegerField(default=1111111111111)
+    isbn = models.CharField(max_length=15)
     publication_year = models.DateField()
+    Amount = models.IntegerField(default=0)
+    book_file = models.FileField(upload_to='book_files/',null=True)
+    
+    def __str__(self):
+        return self.title   

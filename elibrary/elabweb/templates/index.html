@@ -21,78 +21,35 @@
             <div class="w-[166px] h-[29px] left-[1160px] top-[97px] absolute text-black text-2xl font-normal font-['Roboto Slab']">Daftar/Masuk</div>
         </div>
         <div class="left-[510px] top-[271px] absolute text-black text-[70px] font-normal font-['Myanmar Khyay']">Daftar Buku </div>
-        <div class="w-[1371px] left-[34px] top-[506px] absolute justify-start items-start inline-flex">
-            <div class="flex-col justify-start items-start inline-flex">
-                <div class="w-[343px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
-                    <div class="self-stretch grow shrink basis-0 text-black text-xs font-semibold font-['Montserrat'] leading-tight">Judul Buku</div>
-                    <div class="self-stretch h-0.5 bg-zinc-200"></div>
-                </div>
-                <div class="w-[343px] h-[22px] pt-1 flex-col justify-start items-start flex">
-                    <div class="self-stretch h-[0px] border border-zinc-200"></div>
-                </div>
-            </div>
-            <div class="flex-col justify-start items-start inline-flex">
-                <div class="w-[250px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
-                    <div class="self-stretch grow shrink basis-0 text-black text-xs font-semibold font-['Montserrat'] leading-tight">Pengarang</div>
-                    <div class="self-stretch h-0.5 bg-zinc-200"></div>
-                </div>
-                <div class="w-[250px] h-[22px] pt-1 flex-col justify-start items-start flex">
-                    <div class="self-stretch h-[0px] border border-zinc-200"></div>
-                </div>
-            </div>
-            <div class="flex-col justify-start items-start inline-flex">
-                <div class="w-[250px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
-                    <div class="self-stretch grow shrink basis-0 text-black text-xs font-semibold font-['Montserrat'] leading-tight">Penerbit</div>
-                    <div class="self-stretch h-0.5 bg-zinc-200"></div>
-                </div>
-                <div class="w-[250px] h-[22px] pt-1 flex-col justify-start items-start flex">
-                    <div class="self-stretch h-[0px] border border-zinc-200"></div>
-                </div>
-            </div>
-            <div class="flex-col justify-start items-start inline-flex">
-                <div class="w-[200px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
-                    <div class="self-stretch grow shrink basis-0 text-black text-xs font-semibold font-['Montserrat'] leading-tight">ISBN</div>
-                    <div class="self-stretch h-0.5 bg-zinc-200"></div>
-                </div>
-                <div class="w-[200px] h-[22px] pt-1 flex-col justify-start items-start flex">
-                    <div class="self-stretch h-[0px] border border-zinc-200"></div>
-                </div>
-            </div>
-            <div class="w-[113px] flex-col justify-start items-start inline-flex">
-                <div class="w-[113px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
-                    <div class="self-stretch grow shrink basis-0 text-center text-black text-xs font-semibold font-['Montserrat'] leading-tight">Tahun Terbit</div>
-                    <div class="self-stretch h-0.5 bg-zinc-200"></div>
-                </div>
-                <div class="w-[113px] h-[22px] pt-1 flex-col justify-start items-start flex">
-                    <div class="self-stretch h-[0px] border border-zinc-200"></div>
-                </div>
-            </div>
-            <div class="w-[113px] flex-col justify-start items-start inline-flex">
-                <div class="w-[113px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
-                    <div class="self-stretch grow shrink basis-0 text-center text-black text-xs font-semibold font-['Montserrat'] leading-tight">Jumlah</div>
-                    <div class="self-stretch h-0.5 bg-zinc-200"></div>
-                </div>
-                <div class="w-[113px] h-[22px] pt-1 flex-col justify-start items-start flex">
-                    <div class="self-stretch h-[0px] border border-zinc-200"></div>
-                </div>
-            </div>
-            <div class="w-[113px] flex-col justify-start items-start inline-flex">
-                <div class="w-[113px] h-12 pt-5 bg-neutral-50 flex-col justify-center items-start gap-1.5 flex">
-                    <div class="self-stretch grow shrink basis-0 text-center text-black text-xs font-semibold font-['Montserrat'] leading-tight">Aksi</div>
-                    <div class="self-stretch h-0.5 bg-zinc-200"></div>
-                </div>
-                <div class="w-[113px] h-[22px] pt-1 flex-col justify-start items-start flex">
-                    <div class="self-stretch h-[0px] border border-zinc-200"></div>
-                </div>
-            </div>
+        {% for book in books %}
+        <div class="w-[343px] h-10 py-2.5 justify-start items-center inline-flex">
+            <div class="w-[343px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">{{book.title}}</div>
+            </div>            
+            <div class="w-[250px] h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">{{book.author}}</div>
+            </div>            
+            <div class="w-[250px] h-10 py-2.5 justify-start items-center gap-2 inline-flex">
+                <div class="grow shrink basis-0 text-blue-600 text-sm font-normal font-['Montserrat'] leading-tight">{{book.publisher}}</div>
+            </div>           
+             <div class="w-[200px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">{{ book.isbn }}</div>
+            </div>            
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">{{book.publication_year}}</div>
+            </div>            
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <div class="grow shrink basis-0 text-center text-black text-sm font-normal font-['Montserrat'] leading-tight">{{ book.amount }}</div>
+            </div>            
+            <div class="grow shrink basis-0 text-black text-sm font-normal font-['Montserrat'] leading-tight">{{ book.book_file }}</div>
+            <div class="w-[113px] h-10 py-2.5 justify-start items-center inline-flex">
+                <a href="path_to_path" Download="e-book" class="grow shrink basis-0 text-center text-white text-sm font-normal font-['Montserrat'] leading-tight bg-blue-500 px-4 py-2 rounded">Download</a>
         </div>
-        <div class="w-28 h-[34px] left-[39px] top-[458px] absolute">
-            <div class="w-28 h-[34px] left-0 top-0 absolute bg-red-600 rounded-[97px]"></div>
-            <div class="w-[100px] h-[17px] left-[7px] top-[9px] absolute text-black text-xs font-normal font-['Inter']">
-                <button type="button">
-                    <a href="/add_books">Tambahkan Buku</a>
-                </button>
-            </div>
+        {% endfor %}
+        </div>
+        <div class="w-[119px] h-[34px] left-[34px] top-[461px] absolute">
+            <div class="w-[119px] h-[34px] left-0 top-0 absolute bg-red-600 rounded-[97px]"></div>
+            <div class="w-[103.20px] h-[17px] left-[9.48px] top-[9px] absolute text-black text-xs font-normal font-['Inter']">Tambahkan Buku</div>
         </div>
         <div class="w-[1440px] h-[380px] left-0 top-[862px] absolute">
             <div class="left-[135px] top-[120px] absolute text-black text-2xl font-bold font-['Roboto'] uppercase">Trade</div>
