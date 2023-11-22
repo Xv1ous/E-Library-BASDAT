@@ -1,10 +1,28 @@
 from datetime import datetime
 from django.shortcuts import render, redirect ,HttpResponse
 from .models import Book  
+from django.http import FileResponse
+from django.core import serializers
+from django.shortcuts import render
+from django.http import FileResponse
+from .models import *
 
-    # Create your views here.
+
+# Create your views here.
+
+
+
 def home(request):
-        return render(request, 'index.html')
+        books = Book.objects.all()
+    
+        if books:
+            print ('working')
+    
+        context = {
+        'books': books,
+        }
+    
+        return render(request, 'index.html', context)
 
 def add_books(request):
         if request.method == 'POST':
@@ -28,13 +46,8 @@ def add_books(request):
 
             return redirect('/home')  # Redirect to the books page after adding a book
 
-        # Render the form if the request method is not POST
-        return render(request, 'add_books.html')
-    
-def book_list(request):
-   books = Book.objects.all()
-   return render(request, 'book_list.html', {'books': books})
-
-# def Download_Books(request):
-#     for book in Book.objects.all():
+def download_book(request, book_id):
+    books = Book.objects.get(pk=book_id)
+    file_path = books.book_file.path
+    return FileResponse(open(file_path, 'rb'))
         

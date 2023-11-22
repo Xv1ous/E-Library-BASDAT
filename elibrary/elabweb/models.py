@@ -9,7 +9,7 @@ class Book(models.Model):
     publisher = models.CharField(max_length=100, default='Unknown')
     isbn = models.CharField(max_length=15)
     publication_year = models.DateField()
-    Amount = models.IntegerField(default=0)
+    Amount = models.CharField(max_length=100)
     book_file = models.FileField(upload_to='book_files/',null=True)
     
     def __str__(self):
